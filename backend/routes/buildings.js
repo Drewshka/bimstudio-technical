@@ -8,22 +8,27 @@ The team leader tells you that we do not want to expose this information in this
 
 */
 
-const router = require('express').Router();
+const router = require("express").Router();
+const express = require("express");
+const fs = require("fs");
+const omit = require("omit");
 
-router.get('/all', (req, res) => {
+let buildingData = [];
 
-    // SAMPLE RESPONSE, REPLACE WITH YOUR CODE
-    res.status(200).json({
-        buildings: [
-            {
-                "company": "Green Dot LLC",
-                "address": "2842 Feathers Hooves Drive",
-                "city": "New York",
-                "state": "NY"
-            }
-        ]
-    });
+const getBuildingData = () => {
+  fs.readFile("./data/buildings.json", (err, data) => {
+    if (err) {
+      console.log(err);
+      return;
+    }
+    buildingData = JSON.parse(data);
+  });
+};
 
+getBuildingData();
+
+router.get("/all", (req, res) => {
+  res.json(omit(["secretInformation"], buildingData.buildings));
 });
 
 module.exports = router;

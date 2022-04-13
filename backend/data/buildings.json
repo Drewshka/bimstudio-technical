@@ -1,46 +1,46 @@
 {
-    "buildings": [
-        {
-            "company": "Green Dot LLC",
-            "address": "2842 Feathers Hooves Drive",
-            "city": "New York",
-            "state": "NY",
-            "secretInformation": "10011"
-        },
-        {
-            "company": "Green Dot LLC",
-            "address": "3406 Point Street",
-            "city": "Chicago",
-            "state": "IL",
-            "secretInformation": "53425"
-        },
-        {
-            "company": "Green Dot LLC",
-            "address": "4401 Lilac Lane",
-            "city": "Alamo",
-            "state": "GA",
-            "secretInformation": "54535"
-        },
-        {
-            "company": "Red Triangle Inc",
-            "address": "1524 Ross Street",
-            "city": "New Haven",
-            "state": "IL",
-            "secretInformation": "20930"
-        },
-        {
-            "company": "Red Triangle Inc",
-            "address": "3539 Glenwood Avenue",
-            "city": "Beachwood",
-            "state": "OH",
-            "secretInformation": "39562"
-        },
-        {
-            "company": "Red Triangle Inc",
-            "address": "423 Stiles Street",
-            "city": "Gibsonia",
-            "state": "PA",
-            "secretInformation": "12340"
-        }
-    ]
+  "buildings": [
+    {
+      "company": "Green Dot LLC",
+      "address": "2842 Feathers Hooves Drive",
+      "city": "New York",
+      "state": "NY",
+      "secretInformation": "10011"
+    },
+    {
+      "company": "Green Dot LLC",
+      "address": "3406 Point Street",
+      "city": "Chicago",
+      "state": "IL",
+      "secretInformation": "53425"
+    },
+    {
+      "company": "Green Dot LLC",
+      "address": "4401 Lilac Lane",
+      "city": "Alamo",
+      "state": "GA",
+      "secretInformation": "54535"
+    },
+    {
+      "company": "Red Triangle Inc",
+      "address": "1524 Ross Street",
+      "city": "New Haven",
+      "state": "IL",
+      "secretInformation": "20930"
+    },
+    {
+      "company": "Red Triangle Inc",
+      "address": "3539 Glenwood Avenue",
+      "city": "Beachwood",
+      "state": "OH",
+      "secretInformation": "39562"
+    },
+    {
+      "company": "Red Triangle Inc",
+      "address": "423 Stiles Street",
+      "city": "Gibsonia",
+      "state": "PA",
+      "secretInformation": "12340"
+    }
+  ]
 }
